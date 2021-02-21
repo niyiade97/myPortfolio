@@ -135,7 +135,7 @@ font-size: 20px;
     line-height:3;
     color: black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
 }
 .education-header{
     display: inline-block;
@@ -148,7 +148,7 @@ font-size: 20px;
 .education-content ,.experience-content{
     display: flex;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
 }
 .education-content h3, .experience-content h3{
     width:20%;
@@ -229,7 +229,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .contact-wrapper div h1{
     padding:5px 5px 5px 5px;
     font-weight:bold;
-    font-size: 35px;
+    font-size: 20px;
    
 }
 .contact-wrapper i{
