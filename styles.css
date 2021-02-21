@@ -131,8 +131,8 @@ font-size: 20px;
 }
 
 .about-container{
-    padding:40px 40px 0px 40px;
-    line-height:3;
+    padding:0px 40px 0px 40px;
+    line-height:1.5;
     color: black;
     font-weight: bold;
     font-size: 18px;
