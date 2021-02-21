@@ -40,4 +40,11 @@ var currentStatus = false;
           }
       });
 
+ window.addEventListener("reload", function(){
+        if(window.innerWidth <= 600){
+            document.getElementById("menu").setAttribute("class", "fa fa-bars");
+        }
+
+      });
+
      
