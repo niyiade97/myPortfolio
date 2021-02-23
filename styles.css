@@ -126,16 +126,22 @@ font-size: 20px;
 /* about page style */
 #about{
     background-color: #ffffff;
-    padding:70px;
+    padding:70px 20px 20px 20px;
     /* height:500px; */
 }
-
+.about-header hr,.contact-header hr,.gallery-header hr{
+border-bottom: 2px solid black;
+}
 .about-container{
-    padding:0px 40px 0px 40px;
-    line-height:1.5;
+   
+    line-height:3;
     color: black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
+    
+}
+.about-container p{
+    margin-top: 0px;
 }
 .education-header{
     display: inline-block;
@@ -148,7 +154,7 @@ font-size: 20px;
 .education-content ,.experience-content{
     display: flex;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
 }
 .education-content h3, .experience-content h3{
     width:20%;
@@ -159,11 +165,12 @@ font-size: 20px;
 
 /* skill style */
 .skills{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     color:white;
     background-color: #000100;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='158' height='158' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='5.2' stroke-opacity='0.14'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+padding:60px 20px 20px 20px;
 }
 .skill-wrapper{
     padding:50px 30px 100px 30px;
@@ -177,7 +184,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .skill-name{
     display: inline-block;
-    width:30%;
+    width:40%;
     text-align: left;
     color:white;
     padding-left: 100px;
@@ -190,23 +197,27 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     width:50%;
 }
 .skill-html-rate-value{
-    background-color:black;
+    background-color:#f0a500;
     width:70%;
     height:100%;
 }
 .skill-css-rate-value{
-    background-color:#000100;
+    background-color:#f0a500;
     width:60%;
     height:100%;
 }
 .skill-react-rate-value ,
  .skill-nodejs-rate-value , 
  .skill-python-rate-value{
-    background-color:#000100;
+    background-color:#f0a500;
     width:50%;
     height:100%;
 }
-
+.skill-mongodb-rate-value{
+    background-color:#f0a500;
+    width:40%;
+    height:100%;
+}
 /* contact style */
 #contact{
     background-color:white;
@@ -244,10 +255,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /* Project style */
 .project-header , .gallery-header{
     color:white;
+    margin-left: 30px;
+}
+.project-header hr{
+    border-bottom: 2px solid white;
 }
 .project-inner-container, .gallery-wrapper{
     padding: 70px 0px;
-    width:80%;
+    width:100%;
     margin: 0 auto;
 }
 .project-container{
@@ -357,13 +372,13 @@ footer{
   color: white;
 }
 
-  .fa-instagram {
+  .fa-linkedin{
     background: #125688;
     color: white;
   }
   .footer{
       text-align: center;
-      width:80%;
+      width:100%;
       margin:0 auto;
      
   }
@@ -376,7 +391,9 @@ footer{
       color:white;
       margin-bottom: 0px;;
   }
-
+.footer a{
+    margin: 0px 10px;
+}
 
   @media (max-width: 800px) {
     .logo{
@@ -401,7 +418,7 @@ footer{
     }
     .project-wrapper{
         display: block;
-         width:80%;
+         width:70%;
          height: 450px;
          margin:0 auto;
         
@@ -481,7 +498,7 @@ footer{
         border-bottom: 2px solid black;
     }
 .home-container{
-    padding-top: 10px;
+    padding-top: 60px;
     z-index: 1;
 }
     .home-image-container{
@@ -534,16 +551,15 @@ footer{
     margin-right: 10px;
     outline: 0px;
     }
-    #about{
-        padding:5px;
-    }
+   
     .about-header h1{
         padding-left: 30px;
         margin-right: 50px;
     }
-    .about-header{
-        display: inline-block;
-
+   
+.about-container{
+    text-align: center;
+    
 }
 .education{
     padding: 40px 0px 0px 10px;
@@ -562,7 +578,7 @@ footer{
     padding-left: 30px;
 }
 .project-wrapper{
-    width:100%;
+    width:85%;
 }
 .project-btn{
     height: wrap;
@@ -596,5 +612,18 @@ font-size: 20px;
   .nav-links{
     display: none;
   }
+  .header-nav-ul a{
+      display: inline-block;
+      width:100%;
+      height: 100%;
+  }
+  .header-nav-ul li:hover{
+      background-color: white;
+      color: black;
+  }
+  .header-nav-ul li a:hover{
+    border-bottom: 0px;
+   
+}
  
 }
