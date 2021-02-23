@@ -13,8 +13,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /* header style */
 header{
     top:0px;
-    position: sticky;
+    position:fixed;
     background-color:white;
+    width:100%;
 }
 .header-container{
     display: flex;
@@ -197,24 +198,24 @@ padding:60px 20px 20px 20px;
     width:50%;
 }
 .skill-html-rate-value{
-    background-color:#f0a500;
+    background-color:#f9f871;
     width:70%;
     height:100%;
 }
 .skill-css-rate-value{
-    background-color:#f0a500;
+    background-color:#f9f871;
     width:60%;
     height:100%;
 }
 .skill-react-rate-value ,
  .skill-nodejs-rate-value , 
  .skill-python-rate-value{
-    background-color:#f0a500;
+    background-color:#f9f871;
     width:50%;
     height:100%;
 }
 .skill-mongodb-rate-value{
-    background-color:#f0a500;
+    background-color:#f9f871;
     width:40%;
     height:100%;
 }
